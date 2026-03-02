@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.0">
+  <diagram name="Page-1" id="V7eZD4CV5q0igkbtl1Ny">
+    <mxGraphModel dx="719" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="User" User="" id="kGgzjgoC7cO1H3MAR3hz-1">
+          <mxCell parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1">
+            <mxGeometry height="60" width="30" x="180" y="200" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Browser (Client)" vertex="1">
+          <mxGeometry height="30" width="110" x="277.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-14" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;strokeColor=default;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="70" width="56" x="450" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="fiDae8TPF3fTAM_zKoBj-1" edge="1" parent="1" source="kGgzjgoC7cO1H3MAR3hz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kGgzjgoC7cO1H3MAR3hz-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-15" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;strokeColor=default;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="70" width="63" x="290" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-16" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png;strokeColor=default;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="" vertex="1">
+          <mxGeometry height="65" width="60" x="590" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Web Server" vertex="1">
+          <mxGeometry height="30" width="90" x="430" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;div&gt;Database&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="590" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-26" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.635;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="kGgzjgoC7cO1H3MAR3hz-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="160" />
+              <mxPoint x="430" y="120" />
+            </Array>
+            <mxPoint x="480" y="180" as="sourcePoint" />
+            <mxPoint x="480" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kGgzjgoC7cO1H3MAR3hz-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="224.66" as="sourcePoint" />
+            <mxPoint x="270" y="224.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="224.66" as="sourcePoint" />
+            <mxPoint x="450" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.022;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" target="kGgzjgoC7cO1H3MAR3hz-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="506" y="224.66" as="sourcePoint" />
+            <mxPoint x="586" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kGgzjgoC7cO1H3MAR3hz-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontFamily=Helvetica;fontSize=8;fontColor=default;" value="&lt;div&gt;&lt;font&gt;HTTP request /&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&amp;nbsp;response&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="359" y="225" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
