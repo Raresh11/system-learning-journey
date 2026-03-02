@@ -1,53 +1,53 @@
-Title: System Risks – Basic Web Architecture
+# Title: System Risks – Basic Web Architecture
 
-1. Single Point of Failure – Database
+## 1. Single Point of Failure – Database
 
-Risk
+**Risk**
 If the database is unavailable, the entire system becomes unavailable.
 
-Impact
+**Impact**
 Full downtime
 Revenue loss
 Incident severity: High
 
-Mitigation (conceptual)
+**Mitigation** (conceptual)
 Primary + replica database
 Automated backups
 Health checks and failover strategy
 
-2. Single Backend Instance
+## 2. Single Backend Instance
 
-Risk
+**Risk**
 If the only backend server crashes, no requests can be processed.
 
-Impact
+**Impact**
 Service unavailable
 Poor user experience
 
-Mitigation
+**Mitigation**
 Multiple backend instances
 Load balancer
 
-3. Slow Database Queries
+## 3. Slow Database Queries
 
-Risk
+**Risk**
 High latency due to inefficient queries.
 
-Impact
+**Impact**
 Slow response time
 Timeouts under load
 
-Mitigation
+**Mitigation**
 Query optimization
 Caching layer (future improvement)
 
-4. No Monitoring
+## 4. No Monitoring
 
-Risk
+**Risk**
 Failures are detected only after users complain.
 
-Impact
+**Impact**
 Longer incident resolution time
 
-Mitigation
+**Mitigation**
 Basic monitoring and alerting
